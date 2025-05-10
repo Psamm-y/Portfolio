@@ -101,9 +101,10 @@ export const projects = [
   {
     id: 4,
     title: "Student Management System",
-    des: "Desktop app with ",
+    des: "Desktop app capable of adding, removing or calculating student grades.",
     img: "/dashboard.jpg",
     iconLists: ["/java.svg"],
+    pinTitle:"SMS.",
     link: "https://github.com/adrianhajdin/iphone",
   }
 ];
