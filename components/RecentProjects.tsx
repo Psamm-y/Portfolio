@@ -8,9 +8,9 @@ import { PinContainer } from "./ui/Pin";
 const RecentProjects = () => {
   return (
     <div className="py-20">
-      <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+      <h1 className="text-4xl font-bold text-center line-stamp-2">
+        A small selection of{" "} <br className="sm:block md:hidden"/>
+        <span className="text-purple-500"> recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
@@ -19,7 +19,7 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="Project"
+              title={item.pinTitle}
               href="https://twitter.com/mannupaaji"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
@@ -32,7 +32,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 "
                 />
               </div>
 
@@ -54,6 +54,7 @@ const RecentProjects = () => {
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
                     <div
+                      title={icon}
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{
