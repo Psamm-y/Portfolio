@@ -101,7 +101,7 @@ export const projects = [
   {
     id: 4,
     title: "Student Management System",
-    des: "Desktop app capable of adding, removing or calculating student grades.",
+    des: "Desktop app capable of adding, removing or calculating student grades and more.",
     img: "/dashboard.jpg",
     iconLists: ["/java.svg"],
     pinTitle:"SMS.",
