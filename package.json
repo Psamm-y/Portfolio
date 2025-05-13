@@ -11,6 +11,7 @@
   "dependencies": {
     "@react-three/drei": "^10.0.7",
     "@react-three/fiber": "^9.1.2",
+    "@sentry/nextjs": "^9.18.0",
     "clsx": "^2.1.1",
     "lottie-react": "^2.4.1",
     "motion": "^12.9.7",
