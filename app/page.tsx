@@ -1,26 +1,39 @@
 "use client"
+import dynamic from "next/dynamic";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
 
+// Dynamically import all browser-dependent components with SSR disabled
+const FloatingNav = dynamic(
+  () => import("@/components/ui/FloatingNavbar").then(m => m.FloatingNav),
+  { ssr: false }
+);
+const CanvasRevealEffect = dynamic(
+  () => import("@/components/ui/CanvasReveal").then(m => m.CanvasRevealEffect),
+  { ssr: false }
+);
+const Globe = dynamic(
+  () => import("@/components/ui/Globe").then(m => m.World),
+  { ssr: false }
+);
 
 export default function Home() {
   return (
-    <main className="relative overflow-clip bg-black text-white  flex justify-center items-center flex-col mx-auto sm:px-10 px-5">
+    <main className="relative overflow-clip bg-black text-white flex justify-center items-center flex-col mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
-        < Hero />
+        <Hero />
         <Grid />
         <RecentProjects />
         <Experience />
         <Approach />
-        <Footer/>
-        </div>
+        <Footer />
+      </div>
     </main>
   );
 }
