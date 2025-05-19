@@ -13,10 +13,10 @@ const FloatingNav = dynamic(
   () => import("@/components/ui/FloatingNavbar").then(m => m.FloatingNav),
   { ssr: false }
 );
-const CanvasRevealEffect = dynamic(
-  () => import("@/components/ui/CanvasReveal").then(m => m.CanvasRevealEffect),
-  { ssr: false }
-);
+// const CanvasRevealEffect = dynamic(
+//   () => import("@/components/ui/CanvasReveal").then(m => m.CanvasRevealEffect),
+//   { ssr: false }
+// );
 const Globe = dynamic(
   () => import("@/components/ui/Globe").then(m => m.World),
   { ssr: false }
