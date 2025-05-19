@@ -1,8 +1,11 @@
 
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
-
-import { CanvasRevealEffect } from "./ui/CanvasReveal";
+import dynamic from "next/dynamic";
+const CanvasRevealEffect = dynamic(
+  () => import("@/components/ui/CanvasReveal").then(m => m.CanvasRevealEffect),
+  { ssr: false }
+);
 
 const Approach = () => {
   return (
