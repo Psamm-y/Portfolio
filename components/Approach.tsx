@@ -1,9 +1,9 @@
-
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import dynamic from "next/dynamic";
 const CanvasRevealEffect = dynamic(
-  () => import("@/components/ui/CanvasReveal").then(m => m.CanvasRevealEffect),
+  () =>
+    import("@/components/ui/CanvasReveal").then((m) => m.CanvasRevealEffect),
   { ssr: false }
 );
 
@@ -11,11 +11,10 @@ const Approach = () => {
   return (
     <section className="w-full py-20 ">
       <h1 className="text-4xl font-bold text-center ">
-        My <span className="text-purple-500">approach</span>
+        My <span className="text-purple-500">Approach</span>
       </h1>
-    
+
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        
         <Card
           title="Planning & Strategy  "
           icon={<AceternityIcon order="Phase 1" />}
@@ -41,7 +40,6 @@ const Approach = () => {
             // change bg-black to bg-pink-900
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-              
               [255, 166, 158],
               [221, 255, 247],
             ]}
