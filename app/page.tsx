@@ -1,5 +1,5 @@
-"use client"
-import dynamic from "next/dynamic";
+export const dynamic = "force-dynamic";
+
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
@@ -7,20 +7,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
-
-// Dynamically import all browser-dependent components with SSR disabled
-const FloatingNav = dynamic(
-  () => import("@/components/ui/FloatingNavbar").then(m => m.FloatingNav),
-  { ssr: false }
-);
-// const CanvasRevealEffect = dynamic(
-//   () => import("@/components/ui/CanvasReveal").then(m => m.CanvasRevealEffect),
-//   { ssr: false }
-// );
-const Globe = dynamic(
-  () => import("@/components/ui/Globe").then(m => m.World),
-  { ssr: false }
-);
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 export default function Home() {
   return (
