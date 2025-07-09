@@ -2,7 +2,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -79,24 +79,27 @@ export const projects = [
     iconLists: ["/re.svg", "/tail.svg", "/js.svg","/emailjs.jpeg"],
     pinTitle:"QuickHomes",
     link: "https://github.com/Psamm-y/QuickHomes-refactored",
+    deployed:false
   },
   {
     id: 2,
-    title: "A Simple Todo List App",
-    des: "Manage tasks seamlessly with a user-friendly todo list app built in Reactjs",
-    img: "/todo(2).png",
-    iconLists: ["/react.svg","css.svg"],
-    pinTitle:"Todo App",
+    title: "GitMetrix",
+    des: "A platform for comparing the stats (stars, contributions etc.) of two github geeks",
+    img: "/gitmetrix.png",
+    iconLists: ["/react.svg","/tail.svg","/graphql.svg","/rest-api.png"],
+    pinTitle:"GitMetrix",
     link: "https://github.com/Psamm-y/Todo-list-app",
+    deployed: false
   },
   {
     id: 3,
-    title: "Calculator App",
-    des: "A desktop calculator for simple mathematical evaluation.",
-    img: "/calc.jpg",
-    iconLists: ["/react.svg","css.svg"],
-    pinTitle:"Calculator",
+    title: "Manifold Consulting",
+    des: "A sleek and responsive website for a tech consulting firm",
+    img: "/manifold.png",
+    iconLists: ["/nextjs.svg","tail.svg","framer.png","typescript.svg"],
+    pinTitle:"Manifold",
     link: "",
+    deployed:false
   },
   {
     id: 4,
@@ -105,75 +108,12 @@ export const projects = [
     img: "/dashboard.jpg",
     iconLists: ["/java.svg"],
     pinTitle:"SMS.",
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "",
   }
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-];
 
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
+
 
 export const workExperience = [
   {
@@ -191,23 +131,10 @@ export const workExperience = [
     company: "Resourcio Community",
     date:"Mar 2025 - Apr 2025",
     desc: "Contributed to projects spanning easy, intermediate, and advanced difficulty levels, enhancing diverse open-source repositories.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
-  // {
-  //   id: 3,
-  //   title: "Freelance App Dev Project",
-  //   desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp3.svg",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Lead Frontend Developer",
-  //   desc: "Developed and maintained user-facing features using modern frontend technologies.",
-  //   className: "md:col-span-2",
-  //   thumbnail: "/exp4.svg",
-  // },
+  
 ];
 
 export const socialMedia = [
