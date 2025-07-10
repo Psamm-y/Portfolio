@@ -98,7 +98,7 @@ export const projects = [
     img: "/manifold.png",
     iconLists: ["/nextjs.svg","/tail.svg","/framer.png","/typescript.svg"],
     pinTitle:"Manifold",
-    link: "",
+    link: "https://github.com/niicommey01/fallenangel",
     deployed:false
   },
   {
@@ -109,6 +109,7 @@ export const projects = [
     iconLists: ["/react.svg","/tail.svg","/typescript.svg"],
     pinTitle:"Fallen angel.",
     link: "",
+    deployed:false
   }
 ];
 

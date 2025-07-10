@@ -10,7 +10,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="text-4xl font-bold text-center line-stamp-2">
-        A small selection of{" "} <br className="sm:block md:hidden"/>
+        A selection of{" "} <br className="sm:block md:hidden"/>
         <span className="text-purple-500"> recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 mt-10">
@@ -21,9 +21,9 @@ const RecentProjects = () => {
           >
             <PinContainer
               title={item.pinTitle}
-              href="https://twitter.com/mannupaaji"
-            >
-              <div className="relative flex items-center justify-center sm:h-[40vh] sm:w-[570px] w-[80vw] overflow-hidden h-[30vh]  mb-10">
+              href={item.link}
+            ><a href={item.link} target="_blank">
+              <div  className="relative flex items-center justify-center sm:h-[40vh] sm:w-[570px] w-[80vw] overflow-hidden h-[30vh]  mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
@@ -35,8 +35,8 @@ const RecentProjects = () => {
                   alt="cover"
                   className="z-10 absolute bottom-0 "
                 />
-              </div>
-
+                </div>
+                </a>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 ">
                 {item.title}
               </h1>
@@ -69,7 +69,9 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                    <a href={item.link} target="_blank">
+                      {item.deployed ? "Check Live Site" : "View code on Github"}
+                      </a>
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
