@@ -86,9 +86,9 @@ export const projects = [
     title: "GitMetrix",
     des: "A platform for comparing the stats (stars, contributions etc.) of two github geeks",
     img: "/gitmetrix.png",
-    iconLists: ["/react.svg","/tail.svg","/graphql.svg","/rest-api.png"],
+    iconLists: ["/react.svg","/typescript.svg","/tail.svg","/graphql.svg","/rest-api.png"],
     pinTitle:"GitMetrix",
-    link: "https://github.com/Psamm-y/Todo-list-app",
+    link: "https://github.com/Psamm-y/GitMetrix",
     deployed: false
   },
   {
@@ -96,18 +96,18 @@ export const projects = [
     title: "Manifold Consulting",
     des: "A sleek and responsive website for a tech consulting firm",
     img: "/manifold.png",
-    iconLists: ["/nextjs.svg","tail.svg","framer.png","typescript.svg"],
+    iconLists: ["/nextjs.svg","/tail.svg","/framer.png","/typescript.svg"],
     pinTitle:"Manifold",
     link: "",
     deployed:false
   },
   {
     id: 4,
-    title: "Student Management System",
-    des: "Desktop app capable of adding, removing or calculating student grades and more.",
+    title: "Fallen Angel: Online Clothing Brand",
+    des: "An online ecommerce store for selling of the 'Fallen angel' clothing ",
     img: "/dashboard.jpg",
-    iconLists: ["/java.svg"],
-    pinTitle:"SMS.",
+    iconLists: ["/react.svg","/tail.svg","/typescript.svg"],
+    pinTitle:"Fallen angel.",
     link: "",
   }
 ];
