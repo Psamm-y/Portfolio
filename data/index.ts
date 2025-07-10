@@ -105,7 +105,7 @@ export const projects = [
     id: 4,
     title: "Fallen Angel: Online Clothing Brand",
     des: "An online ecommerce store for selling of the 'Fallen angel' clothing ",
-    img: "/dashboard.jpg",
+    img: "/fallen.png",
     iconLists: ["/react.svg","/tail.svg","/typescript.svg"],
     pinTitle:"Fallen angel.",
     link: "",
