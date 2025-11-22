@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Samuel Ampadu",
-  description: "My portfolio rebuild",
+  description: "The official portfolio of Samuel Amoako Ampadu",
 };
 
 export default function RootLayout({
