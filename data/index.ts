@@ -94,7 +94,7 @@ export const projects = [
   }
   ,
   {
-    id: 1,
+    id: 3,
     title: "QuickHomes - an Accomodaton Webapp",
     des: "Discover a vast listing of properties based on your choice that you can buy or rent built in Reactjs",
     img: "/QH2.png",
@@ -104,7 +104,7 @@ export const projects = [
     deployed: false
   },
   {
-    id: 3,
+    id: 4,
     title: "GitMetrix",
     des: "A platform for comparing the stats (stars, contributions etc.) of two github geeks",
     img: "/gitmetrix.png",
@@ -114,7 +114,7 @@ export const projects = [
     deployed: false
   },
   {
-    id: 4,
+    id: 5,
     title: "Manifold Consulting",
     des: "A sleek and responsive website for a tech consulting firm",
     img: "/manifold.png",
@@ -124,7 +124,7 @@ export const projects = [
     deployed: false
   },
   {
-    id: 5,
+    id: 6,
     title: "Fallen Angel: Online Clothing Brand",
     des: "An online ecommerce store for selling of the 'Fallen angel' clothing ",
     img: "/fallen.png",
@@ -141,21 +141,21 @@ export const projects = [
 export const workExperience = [
   {
     id: 1,
+    title: "Frontend Developer",
+    company: "AreteForge IT Solutions",
+    date: "August - Present",
+    desc: "Building efficient solutions for individuals and businesses",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
     title: "Software Engineering Intern",
     company: "Headstarter Ai",
     date: "Jan 2025 - Mar 2025",
     desc: "Developed chatbots using relevant frameworks and tools, enhancing conversational AI capabilities.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
-  },
-  {
-    id: 2,
-    title: "Contributor",
-    company: "Resourcio Community",
-    date: "Mar 2025 - Apr 2025",
-    desc: "Contributed to projects spanning easy, intermediate, and advanced difficulty levels, enhancing diverse open-source repositories.",
-    className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
   },
 
 ];
