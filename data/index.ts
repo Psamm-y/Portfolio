@@ -40,7 +40,7 @@ export const gridItems = [
   {
     id: 4,
     title: "I'm constantly learning",
-    description:"Learning new stuff and improving on old ones",
+    description: "Learning new stuff and improving on old ones",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -73,43 +73,65 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Bible and Book Ministry",
+    des: "A webapp to shop Christian books, Bibles, devotionals, and literature online in Ghana. ",
+    img: "/bibleandbook.png",
+    iconLists: ["/nextjs.svg", "/tail.svg", "/js.svg", "/framer.png", "/typescript.svg"],
+    pinTitle: "BB",
+    link: "https://bibleandbookministry.app",
+    deployed: true
+  }
+  ,
+  {
+    id: 2,
+    title: "Korbly (collaboration)",
+    des: "A platform for SMEs to apply for investment and investors to invest in businesses.",
+    img: "/korbly.png",
+    iconLists: ["/nextjs.svg", "/tail.svg", "/framer.png", "/typescript.svg"],
+    pinTitle: "Korbly",
+    link: "https://korbly.vercel.app",
+    deployed: true
+  }
+  ,
+  {
+    id: 1,
     title: "QuickHomes - an Accomodaton Webapp",
     des: "Discover a vast listing of properties based on your choice that you can buy or rent built in Reactjs",
     img: "/QH2.png",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg","/emailjs.jpeg"],
-    pinTitle:"QuickHomes",
+    iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/emailjs.jpeg"],
+    pinTitle: "QuickHomes",
     link: "https://github.com/Psamm-y/QuickHomes-refactored",
-    deployed:false
-  },
-  {
-    id: 2,
-    title: "GitMetrix",
-    des: "A platform for comparing the stats (stars, contributions etc.) of two github geeks",
-    img: "/gitmetrix.png",
-    iconLists: ["/react.svg","/typescript.svg","/tail.svg","/graphql.svg","/rest-api.png"],
-    pinTitle:"GitMetrix",
-    link: "https://github.com/Psamm-y/GitMetrix",
     deployed: false
   },
   {
     id: 3,
-    title: "Manifold Consulting",
-    des: "A sleek and responsive website for a tech consulting firm",
-    img: "/manifold.png",
-    iconLists: ["/nextjs.svg","/tail.svg","/framer.png","/typescript.svg"],
-    pinTitle:"Manifold",
-    link: "https://github.com/niicommey01/fallenangel",
-    deployed:false
+    title: "GitMetrix",
+    des: "A platform for comparing the stats (stars, contributions etc.) of two github geeks",
+    img: "/gitmetrix.png",
+    iconLists: ["/react.svg", "/typescript.svg", "/tail.svg", "/graphql.svg", "/rest-api.png"],
+    pinTitle: "GitMetrix",
+    link: "https://github.com/Psamm-y/GitMetrix",
+    deployed: false
   },
   {
     id: 4,
+    title: "Manifold Consulting",
+    des: "A sleek and responsive website for a tech consulting firm",
+    img: "/manifold.png",
+    iconLists: ["/nextjs.svg", "/tail.svg", "/framer.png", "/typescript.svg"],
+    pinTitle: "Manifold",
+    link: "https://github.com/niicommey01/fallenangel",
+    deployed: false
+  },
+  {
+    id: 5,
     title: "Fallen Angel: Online Clothing Brand",
     des: "An online ecommerce store for selling of the 'Fallen angel' clothing ",
     img: "/fallen.png",
-    iconLists: ["/react.svg","/tail.svg","/typescript.svg"],
-    pinTitle:"Fallen angel.",
+    iconLists: ["/react.svg", "/tail.svg", "/typescript.svg"],
+    pinTitle: "Fallen angel.",
     link: "",
-    deployed:false
+    deployed: false
   }
 ];
 
@@ -121,7 +143,7 @@ export const workExperience = [
     id: 1,
     title: "Software Engineering Intern",
     company: "Headstarter Ai",
-    date:"Jan 2025 - Mar 2025",
+    date: "Jan 2025 - Mar 2025",
     desc: "Developed chatbots using relevant frameworks and tools, enhancing conversational AI capabilities.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
@@ -130,28 +152,28 @@ export const workExperience = [
     id: 2,
     title: "Contributor",
     company: "Resourcio Community",
-    date:"Mar 2025 - Apr 2025",
+    date: "Mar 2025 - Apr 2025",
     desc: "Contributed to projects spanning easy, intermediate, and advanced difficulty levels, enhancing diverse open-source repositories.",
-    className: "md:col-span-2", 
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
-  
+
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    href:"https://github.com/psamm-y"
+    href: "https://github.com/psamm-y"
   },
   {
     id: 2,
     img: "/x.svg",
-    href:"https://x.com/ampadu_psamuel"
+    href: "https://x.com/ampadu_psamuel"
   },
   {
     id: 3,
     img: "/link.svg",
-    href:"https://linkedin.com/in/ampadu-samuel"
+    href: "https://linkedin.com/in/ampadu-samuel"
   },
 ];
